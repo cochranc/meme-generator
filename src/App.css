@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(to right,  #fa0e98 , rgb(45, 253, 253));
+}
+
+#title {
+text-align: center;
+}
+
+#page {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+#input {
+  margin: 20px;
+}
+
+#input > input {
+  border: 1.5px solid #fa0e98;
+  border-radius: 5px;
+  margin: 0.5em;
+  min-width: 25em;
+  height: 2em;
+  font-size: medium;
+}
+
+#meme {
+  position: relative;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+}
+
+#meme > img {
+  width: 95%;
+  max-width: 40em;
+  max-height: 40em;
+  margin-bottom: 1.5em;
+  background: cover;
+  background-repeat: no-repeat;
+}
+
+#meme > h2 {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;  
+  font-family: charcoal, impact, sans-serif;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000,
+  -2px 2px 0 #000, 0 2px 0 #000, 2px 0 0 #000, 0 -2px 0 #000, -2px 0 0 #000,
+  2px 2px 5px #000;
+}
+
+#top {
+  top: 0px;
+}
+
+#bottom {
+  bottom: 20px;
+}
+
+#generateMemeButton {
+  border: 1.5px solid rgb(175, 99, 164);
+  border-radius: 5px;
+  margin: 0.5em;
+  min-width: 25em;
+  height: 2em;
+  font-family: VT323, monospace;
+  font-size: medium;
+  background: #fa0e98;
+}
+
+#generateMemeButton:hover {
+  background: rgba(17, 255, 29, 0.8);
+  border: 1.5px solid rgba(17, 255, 29, 0.8);
+}
